@@ -60,7 +60,7 @@ for sensor_id in range(1, 1+n_sensors):
         str(n_hours).zfill(2), str(n_minutes).zfill(2), "00"])
 
     # Make job name
-    job_name = "_".join(["larn2022", "audiomoth", sensor_id])
+    job_name = "_".join(["larn2022", "audiomoth", str(sensor_id)])
     sbatch_name = job_name + ".sbatch"
     sbatch_path = os.path.join(sbatch_dir, sbatch_name)
 
