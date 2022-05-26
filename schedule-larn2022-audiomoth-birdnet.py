@@ -42,7 +42,7 @@ input_dir = os.path.join("/scratch/vl1019/LARN_SONS_2022", dataset_name)
 
 
 # Define output directory.
-out_dir = os.path.join(input_dir, "_".join([dataset_name, run_str]))
+out_dir = os.path.join("/scratch/vl1019/LARN_SONS_2022", run_str, dataset_name)
 os.makedirs(out_dir, exist_ok=True)
 
 
