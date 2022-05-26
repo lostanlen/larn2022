@@ -48,6 +48,7 @@ os.makedirs(out_dir, exist_ok=True)
 
 # Loop over directories.
 n_sensors = 36
+job_names = []
 for sensor_id in range(1, 1+n_sensors):
 
     sensor_name = str(sensor_id).zfill(2)
