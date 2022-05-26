@@ -85,16 +85,6 @@ for sensor_id in range(1, 1+n_sensors):
         # Loop over WAV paths.
         for wav_id, wav_path in enumerate(wav_paths):
 
-            # Create file path.
-            script_path_with_args = " ".join([
-                script_name,
-                "--i", wav_path,
-                "--o", out_dir,
-                "--lat", "47.34",
-                "--lon", "-2.20",
-                "--week", str(week_id),
-                "--min_conf", "0.1"])
-
             # Find date.
             date_and_time_str = os.path.split(wav_path)[1][:-4]
             date_str = date_and_time_str.split("_")[0]
@@ -104,6 +94,16 @@ for sensor_id in range(1, 1+n_sensors):
             month = int(date_str[4:6])
             day = int(date_str[6:8])
             week_id = (month-1) * 4 + (day-1) // 7
+
+            # Create file path.
+            script_path_with_args = " ".join([
+                script_name,
+                "--i", wav_path,
+                "--o", out_dir,
+                "--lat", "47.34",
+                "--lon", "-2.20",
+                "--week", str(week_id),
+                "--min_conf", "0.1"])
 
             f.write("\n")
             f.write("python " + script_path_with_args)
