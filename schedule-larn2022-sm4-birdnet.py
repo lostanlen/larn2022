@@ -88,8 +88,8 @@ for dataset_name in dataset_names:
 
             # Find date.
             date_and_time_str = os.path.split(wav_path)[1][:-4]
-            date_str = date_and_time_str.split("_")[0]
-            time_str = date_and_time_str.split("_")[1]
+            date_str = date_and_time_str.split("_")[1]
+            time_str = date_and_time_str.split("_")[2]
 
             year = int(date_str[:4])
             month = int(date_str[4:6])
