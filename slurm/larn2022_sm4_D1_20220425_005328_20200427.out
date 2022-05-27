@@ -1,0 +1,9 @@
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... INFO (theano.gof.compilelock): Waiting for existing lock by process '2355411' (I am process '2050868')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: D1_20220425_005328.wav SPECIES: 91 DETECTIONS: 3510 TIME: 1315 

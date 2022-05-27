@@ -1,0 +1,145 @@
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220505_000100.WAV SPECIES: 93 DETECTIONS: 335 TIME: 733 
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220505_020001.WAV SPECIES: 93 /opt/slurm/data/slurmd/job20200259/slurm_script: line 18: 2575332 Killed                  python analyze.py --i /scratch/vl1019/LARN_SONS_2022/AUDIOMOTH_ESPACES_BOISES/5/2022-05-05/20220505_020001.WAV --o /scratch/vl1019/LARN_SONS_2022/BirdNET/AUDIOMOTH_ESPACES_BOISES/5 --lat 47.34 --lon -2.20 --week 16 --min_conf 0.1
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... INFO (theano.gof.compilelock): Waiting for existing lock by process '222992' (I am process '2576202')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220506_000100.WAV SPECIES: 93 DETECTIONS: 48 TIME: 774 
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220506_020001.WAV SPECIES: 93 /opt/slurm/data/slurmd/job20200259/slurm_script: line 20: 2578252 Killed                  python analyze.py --i /scratch/vl1019/LARN_SONS_2022/AUDIOMOTH_ESPACES_BOISES/5/2022-05-06/20220506_020001.WAV --o /scratch/vl1019/LARN_SONS_2022/BirdNET/AUDIOMOTH_ESPACES_BOISES/5 --lat 47.34 --lon -2.20 --week 16 --min_conf 0.1
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220507_000100.WAV SPECIES: 93 DETECTIONS: 88 TIME: 771 
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220507_020001.WAV SPECIES: 93 /opt/slurm/data/slurmd/job20200259/slurm_script: line 22: 2581058 Killed                  python analyze.py --i /scratch/vl1019/LARN_SONS_2022/AUDIOMOTH_ESPACES_BOISES/5/2022-05-07/20220507_020001.WAV --o /scratch/vl1019/LARN_SONS_2022/BirdNET/AUDIOMOTH_ESPACES_BOISES/5 --lat 47.34 --lon -2.20 --week 16 --min_conf 0.1
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... INFO (theano.gof.compilelock): Waiting for existing lock by process '2581878' (I am process '2581881')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220508_000100.WAV SPECIES: 97 DETECTIONS: 153 TIME: 708 
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220508_020001.WAV SPECIES: 97 /opt/slurm/data/slurmd/job20200259/slurm_script: line 24: 2583728 Killed                  python analyze.py --i /scratch/vl1019/LARN_SONS_2022/AUDIOMOTH_ESPACES_BOISES/5/2022-05-08/20220508_020001.WAV --o /scratch/vl1019/LARN_SONS_2022/BirdNET/AUDIOMOTH_ESPACES_BOISES/5 --lat 47.34 --lon -2.20 --week 17 --min_conf 0.1
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220509_000100.WAV SPECIES: 97 DETECTIONS: 84 TIME: 697 
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220509_020001.WAV SPECIES: 97 /opt/slurm/data/slurmd/job20200259/slurm_script: line 26: 2587033 Killed                  python analyze.py --i /scratch/vl1019/LARN_SONS_2022/AUDIOMOTH_ESPACES_BOISES/5/2022-05-09/20220509_020001.WAV --o /scratch/vl1019/LARN_SONS_2022/BirdNET/AUDIOMOTH_ESPACES_BOISES/5 --lat 47.34 --lon -2.20 --week 17 --min_conf 0.1
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220510_000100.WAV SPECIES: 97 DETECTIONS: 32 TIME: 692 
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220510_020001.WAV SPECIES: 97 /opt/slurm/data/slurmd/job20200259/slurm_script: line 28: 2589412 Killed                  python analyze.py --i /scratch/vl1019/LARN_SONS_2022/AUDIOMOTH_ESPACES_BOISES/5/2022-05-10/20220510_020001.WAV --o /scratch/vl1019/LARN_SONS_2022/BirdNET/AUDIOMOTH_ESPACES_BOISES/5 --lat 47.34 --lon -2.20 --week 17 --min_conf 0.1
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... WARNING (theano.gof.compilelock): Refreshing lock failed, we release the lock before raising again the exception
+WARNING (theano.gof.compilelock): Something wrong happened: <class 'FileNotFoundError'> [Errno 2] No such file or directory: '/home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir/lock'
+INFO (theano.gof.compilelock): Waiting for existing lock by process '2590168' (I am process '2590164')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+WARNING (theano.gof.compilelock): Refreshing lock failed, we release the lock before raising again the exception
+WARNING (theano.gof.compilelock): Something wrong happened: <class 'FileNotFoundError'> [Errno 2] No such file or directory: '/home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir/lock'
+INFO (theano.gof.compilelock): Waiting for existing lock by process '2370831' (I am process '2590164')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '2899026' (I am process '2590164')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '2541716' (I am process '2590164')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220511_000100.WAV SPECIES: 97 DETECTIONS: 29 TIME: 732 
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220511_020001.WAV SPECIES: 97 /opt/slurm/data/slurmd/job20200259/slurm_script: line 30: 2592193 Killed                  python analyze.py --i /scratch/vl1019/LARN_SONS_2022/AUDIOMOTH_ESPACES_BOISES/5/2022-05-11/20220511_020001.WAV --o /scratch/vl1019/LARN_SONS_2022/BirdNET/AUDIOMOTH_ESPACES_BOISES/5 --lat 47.34 --lon -2.20 --week 17 --min_conf 0.1
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220512_000100.WAV SPECIES: 97 DETECTIONS: 77 TIME: 722 
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220512_020001.WAV SPECIES: 97 /opt/slurm/data/slurmd/job20200259/slurm_script: line 32: 2594752 Killed                  python analyze.py --i /scratch/vl1019/LARN_SONS_2022/AUDIOMOTH_ESPACES_BOISES/5/2022-05-12/20220512_020001.WAV --o /scratch/vl1019/LARN_SONS_2022/BirdNET/AUDIOMOTH_ESPACES_BOISES/5 --lat 47.34 --lon -2.20 --week 17 --min_conf 0.1
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... INFO (theano.gof.compilelock): Waiting for existing lock by process '805479' (I am process '2595583')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220513_000100.WAV SPECIES: 97 DETECTIONS: 46 TIME: 734 
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: 20220513_020001.WAV SPECIES: 97 /opt/slurm/data/slurmd/job20200259/slurm_script: line 34: 2597331 Killed                  python analyze.py --i /scratch/vl1019/LARN_SONS_2022/AUDIOMOTH_ESPACES_BOISES/5/2022-05-13/20220513_020001.WAV --o /scratch/vl1019/LARN_SONS_2022/BirdNET/AUDIOMOTH_ESPACES_BOISES/5 --lat 47.34 --lon -2.20 --week 17 --min_conf 0.1
+slurmstepd: error: Detected 9 oom-kill event(s) in StepId=20200259.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

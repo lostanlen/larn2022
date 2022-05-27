@@ -1,0 +1,44 @@
+FILES IN DATASET: 1 
+LOADING SNAPSHOT BirdNET_Soundscape_Model.pkl ... DONE! 
+BUILDING BirdNET MODEL... DONE! 
+IMPORTING MODEL PARAMS... DONE! 
+COMPILING THEANO TEST FUNCTION FUNCTION... INFO (theano.gof.compilelock): Waiting for existing lock by process '2185014' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '3106372' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '2184480' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '3901926' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '3318045' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by unknown process (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by unknown process (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '3901941' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '3901930' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '286383' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '286382' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '2355835' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '2785689' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '3416373' (I am process '3901513')
+INFO (theano.gof.compilelock): To manually release the lock, delete /home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
+DONE! 
+LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
+SID: 1 PROCESSING: D1_20220428_125338.wav SPECIES: 91 DETECTIONS: 2331 TIME: 1631 
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/scratch/vl1019/envs/birdnet/lib/python3.7/site-packages/theano/gof/cmodule.py", line 1522, in _on_atexit
+    self.clear_unversioned()
+  File "/scratch/vl1019/envs/birdnet/lib/python3.7/site-packages/theano/gof/cmodule.py", line 1494, in clear_unversioned
+    age = time_now - last_access_time(path)
+  File "/scratch/vl1019/envs/birdnet/lib/python3.7/site-packages/theano/gof/cmodule.py", line 345, in last_access_time
+    return os.stat(path)[stat.ST_ATIME]
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/tmpjtlt5uis/m98c2d4f8ecc2de5ec7459df997c43ce2fac32fa266521c65ac50d4f1c20d7f99.so'

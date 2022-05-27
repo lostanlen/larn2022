@@ -1,0 +1,39 @@
+# This shell script schedules all Slurm jobs for running BirdNET on AUDIOMOTH_ESPACES_BOISES.
+# Sensor name: 36.
+
+sbatch larn2022_audiomoth_01.sbatch
+sbatch larn2022_audiomoth_02.sbatch
+sbatch larn2022_audiomoth_03.sbatch
+sbatch larn2022_audiomoth_04.sbatch
+sbatch larn2022_audiomoth_05.sbatch
+sbatch larn2022_audiomoth_06.sbatch
+sbatch larn2022_audiomoth_07.sbatch
+sbatch larn2022_audiomoth_08.sbatch
+sbatch larn2022_audiomoth_09.sbatch
+sbatch larn2022_audiomoth_10.sbatch
+sbatch larn2022_audiomoth_11.sbatch
+sbatch larn2022_audiomoth_12.sbatch
+sbatch larn2022_audiomoth_13.sbatch
+sbatch larn2022_audiomoth_14.sbatch
+sbatch larn2022_audiomoth_15.sbatch
+sbatch larn2022_audiomoth_16.sbatch
+sbatch larn2022_audiomoth_17.sbatch
+sbatch larn2022_audiomoth_18.sbatch
+sbatch larn2022_audiomoth_19.sbatch
+sbatch larn2022_audiomoth_20.sbatch
+sbatch larn2022_audiomoth_21.sbatch
+sbatch larn2022_audiomoth_22.sbatch
+sbatch larn2022_audiomoth_23.sbatch
+sbatch larn2022_audiomoth_24.sbatch
+sbatch larn2022_audiomoth_25.sbatch
+sbatch larn2022_audiomoth_26.sbatch
+sbatch larn2022_audiomoth_27.sbatch
+sbatch larn2022_audiomoth_28.sbatch
+sbatch larn2022_audiomoth_29.sbatch
+sbatch larn2022_audiomoth_30.sbatch
+sbatch larn2022_audiomoth_31.sbatch
+sbatch larn2022_audiomoth_32.sbatch
+sbatch larn2022_audiomoth_33.sbatch
+sbatch larn2022_audiomoth_34.sbatch
+sbatch larn2022_audiomoth_35.sbatch
+sbatch larn2022_audiomoth_36.sbatch

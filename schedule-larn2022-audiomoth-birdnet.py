@@ -77,7 +77,7 @@ for sensor_id in range(1, 1+n_sensors):
         f.write("#SBATCH --tasks-per-node=1\n")
         f.write("#SBATCH --cpus-per-task=1\n")
         f.write("#SBATCH --time=" + walltime_str + "\n")
-        f.write("#SBATCH --mem=16GB\n")
+        f.write("#SBATCH --mem=64GB\n")
         f.write("#SBATCH --begin=now+{}\n".format(str(sensor_id*60)))
         f.write("#SBATCH --output=../slurm/" + job_name + "_%j.out\n")
         f.write("\n")
