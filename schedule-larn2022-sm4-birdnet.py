@@ -118,8 +118,8 @@ shell_path = os.path.join(sbatch_dir, shell_name)
 with open(shell_path, "w") as f:
     # Print header
     f.write("# This shell script schedules all Slurm jobs " +\
-        "for running {} on {}.\n".format(run_str, dataset_name))
-    f.write("# Sensor name: {}.\n".format(sensor_name))
+        "for running {} on {}.\n".format(
+        run_str, " and ".join(dataset_names)))
     f.write("\n")
 
     # Loop over WAV files.
