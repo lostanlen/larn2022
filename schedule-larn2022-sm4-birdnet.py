@@ -64,7 +64,7 @@ for dataset_name in dataset_names:
         sbatch_name = job_name + ".sbatch"
         sbatch_path = os.path.join(sbatch_dir, sbatch_name)
 
-        out_sensor_dir = os.path.join(out_dir, sensor_name)
+        out_sensor_dir = out_dir
         os.makedirs(out_sensor_dir, exist_ok=True)
 
         # Create SBATCH file.
