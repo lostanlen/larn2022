@@ -65,6 +65,9 @@ for sensor_id in range(1, 1+n_sensors):
     sbatch_name = job_name + ".sbatch"
     sbatch_path = os.path.join(sbatch_dir, sbatch_name)
 
+    out_sensor_dir = os.path.join(out_dir, sensor_dir)
+    os.makedirs(out_sensor_dir, exist_ok=True)
+
     # Create SBATCH file.
     with open(sbatch_path, "w") as f:
         f.write("#!/bin/bash\n")
@@ -100,7 +103,7 @@ for sensor_id in range(1, 1+n_sensors):
             script_path_with_args = " ".join([
                 script_name,
                 "--i", wav_path,
-                "--o", out_dir,
+                "--o", out_sensor_dir,
                 "--lat", "47.34",
                 "--lon", "-2.20",
                 "--week", str(week_id),
