@@ -5,7 +5,7 @@
 #SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=96:00:00
-#SBATCH --mem=16GB
+#SBATCH --mem=64GB
 #SBATCH --begin=now+2040
 #SBATCH --output=../slurm/larn2022_audiomoth_34_%j.out
 
