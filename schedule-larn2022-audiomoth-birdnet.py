@@ -61,7 +61,7 @@ for sensor_id in range(1, 1+n_sensors):
 
     for date in dates:
         n_minutes = 0
-        n_hours = 12
+        n_hours = 24
         walltime_str = ":".join([
             str(n_hours).zfill(2), str(n_minutes).zfill(2), "00"])
 
