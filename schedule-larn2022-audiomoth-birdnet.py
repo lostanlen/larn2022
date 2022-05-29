@@ -42,7 +42,8 @@ input_dir = os.path.join("/scratch/vl1019/LARN_SONS_2022", dataset_name)
 
 
 # Define output directory.
-out_dir = os.path.join("/scratch/vl1019/LARN_SONS_2022", run_str, dataset_name)
+out_dir = os.path.join(
+    "/scratch/vl1019/LARN_SONS_2022", run_str, dataset_name + "-v2")
 os.makedirs(out_dir, exist_ok=True)
 
 
@@ -53,56 +54,51 @@ for sensor_id in range(1, 1+n_sensors):
 
     sensor_name = str(sensor_id).zfill(2)
     sensor_dir = os.path.join(input_dir, str(sensor_id))
-    wav_paths = sorted(glob.glob(os.path.join(sensor_dir, "**", "*.WAV")))
-
-    n_minutes = 0
-    n_hours = 96
-    walltime_str = ":".join([
-        str(n_hours).zfill(2), str(n_minutes).zfill(2), "00"])
-
-    # Make job name
-    job_name = "_".join(["larn2022", "audiomoth", sensor_name])
-    sbatch_name = job_name + ".sbatch"
-    sbatch_path = os.path.join(sbatch_dir, sbatch_name)
-
     out_sensor_dir = os.path.join(out_dir, str(sensor_id))
     os.makedirs(out_sensor_dir, exist_ok=True)
 
-    # Create SBATCH file.
-    with open(sbatch_path, "w") as f:
-        f.write("#!/bin/bash\n")
-        f.write("\n")
-        f.write("#BATCH --job-name=" + job_name + "\n")
-        f.write("#SBATCH --nodes=1\n")
-        f.write("#SBATCH --tasks-per-node=1\n")
-        f.write("#SBATCH --cpus-per-task=1\n")
-        f.write("#SBATCH --time=" + walltime_str + "\n")
-        f.write("#SBATCH --mem=64GB\n")
-        f.write("#SBATCH --begin=now+{}\n".format(str(sensor_id*60)))
-        f.write("#SBATCH --output=../slurm/" + job_name + "_%j.out\n")
-        f.write("\n")
-        f.write("module purge\n")
-        f.write("\n")
-        f.write("# The first argument is the name of the WAV file input.\n")
-        f.write("cd " + script_dir + "\n")
+    dates = os.listdir(sensor_dir)
 
-        # Loop over WAV paths.
-        for wav_id, wav_path in enumerate(wav_paths):
+    for date in dates:
+        n_minutes = 0
+        n_hours = 12
+        walltime_str = ":".join([
+            str(n_hours).zfill(2), str(n_minutes).zfill(2), "00"])
+
+        # Make job name
+        job_name = "_".join([
+            "larn2022", "audiomoth", sensor_name, date])
+        sbatch_name = job_name + ".sbatch"
+        sbatch_path = os.path.join(sbatch_dir, sbatch_name)
+
+        # Create SBATCH file.
+        with open(sbatch_path, "w") as f:
+            f.write("#!/bin/bash\n")
+            f.write("\n")
+            f.write("#BATCH --job-name=" + job_name + "\n")
+            f.write("#SBATCH --nodes=1\n")
+            f.write("#SBATCH --tasks-per-node=1\n")
+            f.write("#SBATCH --cpus-per-task=1\n")
+            f.write("#SBATCH --time=" + walltime_str + "\n")
+            f.write("#SBATCH --mem=64GB\n")
+            f.write("#SBATCH --begin=now+{}\n".format(str(sensor_id*60)))
+            f.write("#SBATCH --output=../slurm/" + job_name + "_%j.out\n")
+            f.write("\n")
+            f.write("module purge\n")
+            f.write("\n")
+            f.write("# The first argument is the name of the WAV file input.\n")
+            f.write("cd " + script_dir + "\n")
 
             # Find date.
-            date_and_time_str = os.path.split(wav_path)[1][:-4]
-            date_str = date_and_time_str.split("_")[0]
-            time_str = date_and_time_str.split("_")[1]
-
-            year = int(date_str[:4])
-            month = int(date_str[4:6])
-            day = int(date_str[6:8])
+            year = int(date.split("-")[0])
+            month = int(date.split("-")[1])
+            day = int(date.split("-")[2])
             week_id = (month-1) * 4 + (day-1) // 7
 
             # Create file path.
             script_path_with_args = " ".join([
                 script_name,
-                "--i", wav_path,
+                "--i", os.path.join(sensor_dir, date),
                 "--o", out_sensor_dir,
                 "--lat", "47.34",
                 "--lon", "-2.20",
@@ -116,13 +112,12 @@ for sensor_id in range(1, 1+n_sensors):
 
 
 # Open shell file.
-shell_name = "larn2022_audiomoth.sh"
+shell_name = "larn2022_audiomoth_v2.sh"
 shell_path = os.path.join(sbatch_dir, shell_name)
 with open(shell_path, "w") as f:
     # Print header
     f.write("# This shell script schedules all Slurm jobs " +\
-        "for running {} on {}.\n".format(run_str, dataset_name))
-    f.write("# Sensor name: {}.\n".format(sensor_name))
+        "for running {} on {} (v2).\n".format(run_str, dataset_name))
     f.write("\n")
 
     # Loop over WAV files.
