@@ -50,4 +50,5 @@ INFO (theano.gof.compilelock): Waiting for existing lock by process '3631950' (I
 INFO (theano.gof.compilelock): To manually release the lock, delete /scratch/vl1019/.theano/compiledir_Linux-4.18-el8_4.x86_64-x86_64-with-redhat-8.4-Ootpa-x86_64-3.7.13-64/lock_dir
 DONE! 
 LOADING eBIRD GRID DATA... DONE! 13800 GRID CELLS 
-SID: 1 PROCESSING: 20220505_020001.WAV SPECIES: 93 
+SID: 1 PROCESSING: 20220505_020001.WAV SPECIES: 93 DETECTIONS: 4851 TIME: 2967 
+SID: 2 PROCESSING: 20220505_000100.WAV SPECIES: 93 DETECTIONS: 90 TIME: 605 
