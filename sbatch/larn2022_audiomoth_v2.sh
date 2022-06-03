@@ -108,6 +108,17 @@ sbatch larn2022_audiomoth_12_2022-05-10.sbatch
 sbatch larn2022_audiomoth_12_2022-05-07.sbatch
 sbatch larn2022_audiomoth_12_2022-05-05.sbatch
 sbatch larn2022_audiomoth_12_2022-05-13.sbatch
+sbatch larn2022_audiomoth_13_2022-05-11.sbatch
+sbatch larn2022_audiomoth_13_2022-05-06.sbatch
+sbatch larn2022_audiomoth_13_2022-05-09.sbatch
+sbatch larn2022_audiomoth_13_2022-05-12.sbatch
+sbatch larn2022_audiomoth_13_2022-05-14.sbatch
+sbatch larn2022_audiomoth_13_2022-05-08.sbatch
+sbatch larn2022_audiomoth_13_2022-05-10.sbatch
+sbatch larn2022_audiomoth_13_2022-05-07.sbatch
+sbatch larn2022_audiomoth_13_2022-05-05.sbatch
+sbatch larn2022_audiomoth_13_2022-05-13.sbatch
+sbatch larn2022_audiomoth_13_2022-05-15.sbatch
 sbatch larn2022_audiomoth_14_2022-05-11.sbatch
 sbatch larn2022_audiomoth_14_2022-05-06.sbatch
 sbatch larn2022_audiomoth_14_2022-05-09.sbatch
