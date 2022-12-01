@@ -60,7 +60,7 @@ for dataset_name in dataset_names:
             str(n_hours).zfill(2), str(n_minutes).zfill(2), "00"])
 
         # Make job name
-        job_name = "_".join(["larn2022", "sm4", wav_name])
+        job_name = "_".join(["larn2022", dataset_name, wav_name])
         sbatch_name = job_name + ".sbatch"
         sbatch_path = os.path.join(sbatch_dir, sbatch_name)
 
@@ -84,7 +84,10 @@ for dataset_name in dataset_names:
             f.write("\n")
             f.write("# The first argument is the name of the WAV file input.\n")
             f.write("cd " + script_dir + "\n")
-
+            f.write("singularity exec --overlay " +\
+                "/scratch/vl1019/overlay-50G-10M.ext3 " +\
+                "/scratch/work/public/singularity/cuda11.0-cudnn8-devel-ubuntu18.04.sif " +\
+                "/bin/bash")
 
             # Find date.
             date_and_time_str = os.path.split(wav_path)[1][:-4]
