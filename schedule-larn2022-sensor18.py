@@ -49,7 +49,7 @@ for dataset_name in dataset_names:
     os.makedirs(out_dir, exist_ok=True)
 
     # Loop over directories.
-    wav_paths = sorted(glob.glob(os.path.join(input_dir, "**", "*.WAV")))
+    wav_paths = sorted(glob.glob(os.path.join(input_dir, "**", "*.wav")))
     for wav_id, wav_path in enumerate(wav_paths):
 
         wav_name = os.path.split(wav_path)[1][:-4]
