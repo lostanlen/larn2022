@@ -84,10 +84,6 @@ for dataset_name in dataset_names:
             f.write("\n")
             f.write("# The first argument is the name of the WAV file input.\n")
             f.write("cd " + script_dir + "\n")
-            f.write("singularity exec --overlay " +\
-                "/scratch/vl1019/overlay-50G-10M.ext3 " +\
-                "/scratch/work/public/singularity/cuda11.0-cudnn8-devel-ubuntu18.04.sif " +\
-                "/bin/bash")
 
             # Find date.
             date_and_time_str = os.path.split(wav_path)[1][:-4]
@@ -110,7 +106,10 @@ for dataset_name in dataset_names:
                 "--min_conf", "0.1"])
 
             f.write("\n")
-            f.write("python " + script_path_with_args)
+            f.write("singularity exec --overlay " +\
+                "/scratch/vl1019/overlay-50G-10M.ext3 " +\
+                "/scratch/work/public/singularity/cuda11.0-cudnn8-devel-ubuntu18.04.sif " +\
+                "python " + script_path_with_args)
 
         job_names.append(job_name)
 
