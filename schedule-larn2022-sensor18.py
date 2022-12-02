@@ -77,7 +77,7 @@ for dataset_name in dataset_names:
             f.write("#SBATCH --cpus-per-task=1\n")
             f.write("#SBATCH --time=" + walltime_str + "\n")
             f.write("#SBATCH --mem=16GB\n")
-            f.write("#SBATCH --begin=now+{}\n".format(str(wav_id*5)))
+            f.write("#SBATCH --begin=now+{}\n".format(str(wav_id*60)))
             f.write("#SBATCH --output=../slurm/" + job_name + "_%j.out\n")
             f.write("\n")
             f.write("module purge\n")
