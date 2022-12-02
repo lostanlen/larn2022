@@ -109,7 +109,7 @@ for dataset_name in dataset_names:
             f.write("singularity exec --overlay " +\
                 "/scratch/vl1019/overlay-50G-10M.ext3 " +\
                 "/scratch/work/public/singularity/cuda11.0-cudnn8-devel-ubuntu18.04.sif " +\
-                "python " + script_path_with_args)
+                "/ext3/miniconda3/bin/python " + script_path_with_args)
 
         job_names.append(job_name)
 
