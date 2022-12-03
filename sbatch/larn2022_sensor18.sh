@@ -1,0 +1,20 @@
+# This shell script schedules all Slurm jobs for running BirdNET on sensor18.
+
+sbatch larn2022_sensor18_20220505_000100.sbatch
+sbatch larn2022_sensor18_20220505_020001.sbatch
+sbatch larn2022_sensor18_20220506_000100.sbatch
+sbatch larn2022_sensor18_20220506_020001.sbatch
+sbatch larn2022_sensor18_20220507_000100.sbatch
+sbatch larn2022_sensor18_20220507_020001.sbatch
+sbatch larn2022_sensor18_20220508_000100.sbatch
+sbatch larn2022_sensor18_20220508_020001.sbatch
+sbatch larn2022_sensor18_20220509_000100.sbatch
+sbatch larn2022_sensor18_20220509_020001.sbatch
+sbatch larn2022_sensor18_20220510_000100.sbatch
+sbatch larn2022_sensor18_20220510_020001.sbatch
+sbatch larn2022_sensor18_20220511_000100.sbatch
+sbatch larn2022_sensor18_20220511_020001.sbatch
+sbatch larn2022_sensor18_20220512_000100.sbatch
+sbatch larn2022_sensor18_20220512_020001.sbatch
+sbatch larn2022_sensor18_20220513_000100.sbatch
+sbatch larn2022_sensor18_20220513_020001.sbatch
